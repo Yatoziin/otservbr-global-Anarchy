@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <events>
-	<event name="Otservbr example 1" startdate="11/03/2020" enddate="11/30/2020" script="example.lua" >
-		<ingame exprate="250" lootrate="200" spawnrate="100" skillrate="200" />
-		<description description="Otserver br example 1 description double exp and a half, double loot !chance!, regular spawn and double skill" />
+	<event name="Anarchy Exp Event" startdate="03/12/2021" enddate="03/15/2021" script="example.lua" >
+		<ingame exprate="200" lootrate="120" spawnrate="100" skillrate="120" />
+		<description description="Anarchy Event" />
 		<colors colordark="#235c00" colorlight="#2d7400" />
 		<details displaypriority="6" isseasonal="0" specialevent="0" />
 	</event>

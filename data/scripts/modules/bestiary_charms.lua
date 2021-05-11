@@ -14,7 +14,7 @@ charm_t1.chance = 20
 charm_t1.messageCancel = "You wounded the monster."
 charm_t1.messageServerLog = "[Wound charm]"
 charm_t1.effect = CONST_ME_HITAREA
-charm_t1.points = 600
+charm_t1.points = 0
 
 Bestiaryregister(charm_1, charm_t1)
 --
@@ -33,7 +33,7 @@ charm_t2.chance = 20
 charm_t2.messageCancel = "You enflamed the monster."
 charm_t2.messageServerLog = "[Enflame charm]"
 charm_t2.effect = CONST_ME_HITBYFIRE
-charm_t2.points = 1000
+charm_t2.points = 0
 
 Bestiaryregister(charm_2, charm_t2)
 --
@@ -52,7 +52,7 @@ charm_t3.chance = 20
 charm_t3.messageCancel = "You poisoned the monster."
 charm_t3.messageServerLog = "[Poison charm]"
 charm_t3.effect = CONST_ME_GREEN_RINGS
-charm_t3.points = 600
+charm_t3.points = 0
 
 Bestiaryregister(charm_3, charm_t3)
 --
@@ -71,7 +71,7 @@ charm_t4.chance = 20
 charm_t4.messageCancel = "You frozen the monster."
 charm_t4.messageServerLog = "[Freeze charm]"
 charm_t4.effect = CONST_ME_ICEATTACK
-charm_t4.points = 800
+charm_t4.points = 0
 
 Bestiaryregister(charm_4, charm_t4)
 --
@@ -90,7 +90,7 @@ charm_t5.chance = 20
 charm_t5.messageCancel = "You eletrocuted the monster."
 charm_t5.messageServerLog = "[Zap charm]"
 charm_t5.effect = CONST_ME_ENERGYHIT
-charm_t5.points = 800
+charm_t5.points = 0
 
 Bestiaryregister(charm_5, charm_t5)
 --
@@ -109,7 +109,7 @@ charm_t6.chance = 20
 charm_t6.messageCancel = "You curse the monster."
 charm_t6.messageServerLog = "[Curse charm]"
 charm_t6.effect = CONST_ME_SMALLCLOUDS
-charm_t6.points = 900
+charm_t6.points = 0
 
 Bestiaryregister(charm_6, charm_t6)
 
@@ -125,7 +125,7 @@ charm_t7.description = "Cripples the creature with a certain chance and paralyze
 charm_t7.type = CHARM_OFFENSIVE
 charm_t7.chance = 20
 charm_t7.messageCancel = "You cripple the monster."
-charm_t7.points = 500
+charm_t7.points = 0
 
 Bestiaryregister(charm7, charm_t7)
 --
@@ -142,7 +142,7 @@ charm_t8.chance = 10
 charm_t8.messageCancel = "You parry the attack."
 charm_t8.messageServerLog = "[Parry charm]"
 charm_t8.effect = CONST_ME_EXPLOSIONAREA
-charm_t8.points = 1000
+charm_t8.points = 0
 
 Bestiaryregister(charm_8, charm_t8)
 --
@@ -157,7 +157,7 @@ charm_t9.type = CHARM_DEFENSIVE
 charm_t9.chance = 20
 charm_t9.messageCancel = "You dodge the attack."
 charm_t9.effect = CONST_ME_POFF
-charm_t9.points = 600
+charm_t9.points = 0
 
 Bestiaryregister(charm_9, charm_t9)
 --
@@ -172,7 +172,7 @@ charm_t10.description = "Bursts of adrenaline enhance your reflexes with a certa
 charm_t10.type = CHARM_DEFENSIVE
 charm_t10.chance = 20
 charm_t10.messageCancel = "Your movements where bursted."
-charm_t10.points = 500
+charm_t10.points = 0
 
 Bestiaryregister(charm_10, charm_t10)
 --
@@ -186,7 +186,7 @@ charm_t11.description = "Numbs the creature with a certain chance after its atta
 charm_t11.type = CHARM_DEFENSIVE
 charm_t11.chance = 20
 charm_t11.messageCancel = "You numb the monster."
-charm_t11.points = 500
+charm_t11.points = 0
 
 Bestiaryregister(charm_11, charm_t11)
 --
@@ -201,7 +201,7 @@ charm_t12.description = "Cleanses you from within with a certain chance after yo
 charm_t12.type = CHARM_DEFENSIVE
 charm_t12.chance = 20
 charm_t12.messageCancel = "You purified the attack."
-charm_t12.points = 700
+charm_t12.points = 0
 
 Bestiaryregister(charm_12, charm_t12)
 --
@@ -216,7 +216,7 @@ charm_t13.description = "Blesses you and reduces skill and xp loss by 10% \z
 charm_t13.type = CHARM_PASSIVE
 charm_t13.percent = 10
 charm_t13.chance = 100
-charm_t13.points = 800
+charm_t13.points = 0
 
 Bestiaryregister(charm_13, charm_t13)
 
@@ -230,7 +230,7 @@ charm_t14.name = "Scavenge"
 charm_t14.description = "Enhances your chances to successfully skin/dust a skinnable/dustable creature."
 charm_t14.type = CHARM_PASSIVE
 charm_t14.percent = 10
-charm_t14.points = 800
+charm_t14.points = 0
 
 GLOBAL_CHARM_SCAVENGE = charm_t14.percent
 Bestiaryregister(charm_14, charm_t14)
@@ -244,7 +244,7 @@ charm_t15.name = "Gut"
 charm_t15.description = "Gutting the creature yields 20% more creature products."
 charm_t15.type = CHARM_PASSIVE
 charm_t15.percent = 20
-charm_t15.points = 800
+charm_t15.points = 0
 
 GLOBAL_CHARM_GUT = charm_t15.percent
 Bestiaryregister(charm_15, charm_t15)
@@ -259,7 +259,7 @@ charm_t16.description = "Adds 8% critical hit chance to attacks with critical hi
 charm_t16.type = CHARM_PASSIVE
 charm_t16.percent = 8
 charm_t16.chance = 0
-charm_t16.points = 2000
+charm_t16.points = 0
 
 Bestiaryregister(charm_16, charm_t16)
 --
@@ -278,7 +278,7 @@ charm_t17.chance = 20
 charm_t17.messageCancel = "You divine the monster."
 charm_t17.messageServerLog = "[Divine charm]"
 charm_t17.effect = CONST_ME_HOLYDAMAGE
-charm_t17.points = 1500
+charm_t17.points = 0
 
 Bestiaryregister(charm_17, charm_t17)
 --
@@ -293,7 +293,7 @@ charm_t18.description = "Adds 4% Life Leech to attacks if wearing equipment that
 charm_t18.type = CHARM_PASSIVE
 charm_t18.percent = 4
 charm_t18.chance = 0
-charm_t18.points = 1500
+charm_t18.points = 0
 
 Bestiaryregister(charm_18, charm_t18)
 --
@@ -308,6 +308,6 @@ charm_t19.description = "Adds 2% Mana Leech to attacks if wearing equipment that
 charm_t19.type = CHARM_PASSIVE
 charm_t19.percent = 2
 charm_t19.chance = 0
-charm_t19.points = 1500
+charm_t19.points = 0
 
 Bestiaryregister(charm_19, charm_t19)

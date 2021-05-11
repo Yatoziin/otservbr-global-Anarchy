@@ -51,7 +51,8 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name = "melee", attack = 130, interval = 2*1000, minDamage = -1, maxDamage = -2}
+	{name = "melee", attack = 130, interval = 2*1000, minDamage = -1, maxDamage = -2},
+	{name ="combat", interval = 2000, chance = 10, minDamage = 280, maxDamage = 320, type = COMBAT_MANADRAIN, range = 7, effect = CONST_ME_SMALLPLANTS, target = false}
 }
 
 monster.defenses = {

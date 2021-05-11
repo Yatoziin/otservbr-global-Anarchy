@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<houses />
+<houses>
+	<house name="Anarchy Home 1" houseid="1" entryx="1074" entryy="1029" entryz="7" rent="500000" guildhall="true" townid="1" size="81" />
+	<house name="Anarchy Home 2" houseid="2" entryx="1071" entryy="1020" entryz="7" rent="400000" guildhall="true" townid="1" size="72" />
+	<house name="Anarchy Home 3" houseid="3" entryx="1086" entryy="1011" entryz="7" rent="500000" guildhall="true" townid="1" size="92" />
+	<house name="Anarchy Home 4" houseid="4" entryx="1077" entryy="1036" entryz="7" rent="400000" guildhall="true" townid="1" size="64" />
+</houses>

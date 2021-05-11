@@ -2,7 +2,7 @@ local combat = Combat()
 combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_ENERGY)
 
 function onCreateMagicWall(creature, tile)
-	local item = Game.createItem(Game.getWorldType() == WORLD_TYPE_NO_PVP and ITEM_MAGICWALL_SAFE or ITEM_MAGICWALL, 1, tile)
+		local item = Game.createItem(Game.getWorldType() == WORLD_TYPE_NO_PVP and ITEM_MAGICWALL_SAFE or ITEM_MAGICWALL, 1, tile)
 	item:setAttribute(ITEM_ATTRIBUTE_DURATION, math.random(14000, 20000))
 end
 

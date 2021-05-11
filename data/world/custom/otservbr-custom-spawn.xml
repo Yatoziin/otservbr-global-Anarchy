@@ -23,7 +23,38 @@
 		<npc name="nah_bob" x="1" y="0" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="998" centery="1037" centerz="6" radius="1">
-		<npc name="rashid_custom" x="0" y="-1" z="6" spawntime="60" />
+		<npc name="rashid" x="0" y="-1" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1045" centery="996" centerz="7" radius="5">
+		<monster name="Training Machine" x="-4" y="1" z="7" spawntime="60" />
+		<monster name="Training Machine" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Training Machine" x="2" y="1" z="7" spawntime="60" />
+		<monster name="Training Machine" x="4" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1058" centery="1000" centerz="7" radius="1">
+		<npc name="bpseller" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1045" centery="1002" centerz="7" radius="5">
+		<monster name="Training Machine" x="-4" y="1" z="7" spawntime="60" />
+		<monster name="Training Machine" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="Training Machine" x="2" y="1" z="7" spawntime="60" />
+		<monster name="Training Machine" x="4" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1055" centery="1010" centerz="7" radius="2">
+		<npc name="Moist" x="-1" y="-1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1071" centery="1010" centerz="7" radius="1">
+		<npc name="Fickle" x="0" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1044" centery="1013" centerz="7" radius="5">
+		<monster name="Training Machine" x="-3" y="-4" z="7" spawntime="60" />
+		<monster name="Training Machine" x="-1" y="-4" z="7" spawntime="60" />
+		<monster name="Training Machine" x="3" y="-4" z="7" spawntime="60" />
+		<monster name="Training Machine" x="5" y="-4" z="7" spawntime="60" />
+		<monster name="Training Machine" x="-3" y="2" z="7" spawntime="60" />
+		<monster name="Training Machine" x="-1" y="2" z="7" spawntime="60" />
+		<monster name="Training Machine" x="3" y="2" z="7" spawntime="60" />
+		<monster name="Training Machine" x="5" y="2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1059" centery="1018" centerz="7" radius="3">
 		<npc name="zuma_magehide" x="-1" y="1" z="7" spawntime="60" />
@@ -34,14 +65,50 @@
 	<spawn centerx="1003" centery="1019" centerz="7" radius="1">
 		<npc name="hanna" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="1044" centery="1025" centerz="7" radius="5">
+		<monster name="Training Machine" x="-3" y="-4" z="7" spawntime="60" />
+		<monster name="Training Machine" x="-1" y="-4" z="7" spawntime="60" />
+		<monster name="Training Machine" x="3" y="-4" z="7" spawntime="60" />
+		<monster name="Training Machine" x="5" y="-4" z="7" spawntime="60" />
+		<monster name="Training Machine" x="-3" y="2" z="7" spawntime="60" />
+		<monster name="Training Machine" x="-1" y="2" z="7" spawntime="60" />
+	</spawn>
 	<spawn centerx="990" centery="1027" centerz="7" radius="1">
 		<npc name="archery" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="984" centery="1029" centerz="7" radius="1">
+		<npc name="fiona" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="994" centery="1034" centerz="7" radius="1">
 		<npc name="rock_in_a_hard_place" x="-1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1001" centery="1036" centerz="7" radius="1">
 		<npc name="lailene" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="988" centery="1038" centerz="7" radius="1">
+		<npc name="alexander" x="0" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="995" centery="1039" centerz="7" radius="1">
+		<npc name="telas" x="0" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="934" centery="1148" centerz="7" radius="5">
+		<monster name="Bazir" x="-2" y="0" z="7" spawntime="60" />
+		<monster name="Bazir" x="1" y="3" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="859" centery="1152" centerz="7" radius="5">
+		<monster name="Bazir" x="-3" y="4" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="929" centery="1178" centerz="7" radius="5">
+		<monster name="Bazir" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Bazir" x="-3" y="4" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="861" centery="1181" centerz="7" radius="5">
+		<monster name="Bazir" x="-2" y="0" z="7" spawntime="60" />
+		<monster name="Bazir" x="-1" y="3" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="900" centery="1181" centerz="7" radius="5">
+		<monster name="Bazir" x="0" y="2" z="7" spawntime="60" />
+		<monster name="Bazir" x="4" y="3" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="32354" centery="32226" centerz="7" radius="1">
 		<npc name="cassino" x="0" y="0" z="7" spawntime="60" />

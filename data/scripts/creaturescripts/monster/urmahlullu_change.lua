@@ -1,6 +1,6 @@
 local UrmahlulluChanges = CreatureEvent("UrmahlulluChanges")
 local WeakenedDeath = CreatureEvent("WeakenedDeath")
-local timetochange = 60 --in seconds
+local timetochange = 180 --in seconds
 
 local config = {
     {itemId = 36248},
@@ -13,7 +13,7 @@ local config = {
 function UrmahlulluChanges.onHealthChange(creature, attacker, primaryDamage, primaryType,
 															secondaryDamage, secondaryType)
 	if creature:getName() == 'Urmahlullu the Immaculate' then
-		if creature:getHealth()<=400000 then
+		if creature:getHealth()<=144000 then
 			position=creature:getPosition()
 			creature:remove()
 			Game.createMonster('Wildness of Urmahlullu', position, true, true)
@@ -22,7 +22,7 @@ function UrmahlulluChanges.onHealthChange(creature, attacker, primaryDamage, pri
 		end
 	end
 	if creature:getName() == 'Wildness of Urmahlullu' then
-		if creature:getHealth()<=300000 then
+		if creature:getHealth()<=108000 then
 			if os.time()<=time+timetochange  then
 				position=creature:getPosition()
 				creature:remove()
@@ -38,7 +38,7 @@ function UrmahlulluChanges.onHealthChange(creature, attacker, primaryDamage, pri
 		end
 	end
 	if creature:getName() == 'Urmahlullu the Tamed' then
-		if creature:getHealth()<=200000 then
+		if creature:getHealth()<=72000 then
 			if os.time()<=time+timetochange then
 				position=creature:getPosition()
 				creature:remove()
@@ -55,7 +55,7 @@ function UrmahlulluChanges.onHealthChange(creature, attacker, primaryDamage, pri
 		end
 	end
 	if creature:getName() == 'Wisdom of Urmahlullu' then
-		if creature:getHealth()<=100000 then
+		if creature:getHealth()<=36000 then
 			if os.time()<=time+timetochange then
 				position=creature:getPosition()
 				creature:remove()

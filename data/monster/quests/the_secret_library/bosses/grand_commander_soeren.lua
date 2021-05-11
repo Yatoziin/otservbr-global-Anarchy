@@ -62,6 +62,7 @@ monster.voices = {
 }
 
 monster.loot = {
+	{name = "gold token", chance = 100000, maxCount = 5},
 	{name = "Small Enchanted Amethyst", chance = 15000, maxCount = 3},--done
 	{name = "Platinum Coin", chance = 50000, maxCount = 3},--done
 	{name = "Great Health Potion", chance = 50000, maxCount = 3},--done

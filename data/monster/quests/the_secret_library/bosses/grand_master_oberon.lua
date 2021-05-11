@@ -126,6 +126,7 @@ monster.voices = {
 }
 
 monster.loot = {
+	{name = "gold token", chance = 100000, maxCount = 5},
 	{id = 2230, chance = 30000, maxCount = 1}, 
 	{name = "brass shield", chance = 30000, maxCount = 1},
 	{name = "spatial warp almanac", chance = 25000, maxCount = 1},

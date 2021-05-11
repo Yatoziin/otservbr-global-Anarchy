@@ -158,3 +158,30 @@ end
 if not playerDelayPotion then
 	playerDelayPotion = {}
 end
+	
+function Player.getCoinsBalance(self)	
+resultId = db.storeQuery("SELECT coins FROM accounts WHERE id = " .. self:getAccountId())	
+if not resultId then return 0 end	
+return result.getDataInt(resultId, "coins")	
+end	
+function Player.setCoinsBalance(self, coins)	
+db.asyncQuery("UPDATE accounts SET coins = " .. coins .. " WHERE id = " .. self:getAccountId())	
+return true	
+end	
+function Player.canRemoveCoins(self, coins)	
+if self:getCoinsBalance() < coins then	
+return false	
+end	
+return true	
+end	
+function Player.removeCoinsBalance(self, coins)	
+if self:canRemoveCoins(coins) then	
+return self:setCoinsBalance(self:getCoinsBalance() - coins)	
+end	
+return false	
+end	
+function Player.addCoinsBalance(self, coins, update)	
+self:setCoinsBalance(self:getCoinsBalance() + coins)	
+if update then sendCoinBalanceUpdating(self, true) end	
+return true	
+end

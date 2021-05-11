@@ -1,7 +1,7 @@
 <imbuements>
-	<base id="1" name="Basic" protection="10000" price="5000" percent="90" removecost="15000" duration="72000" />
-	<base id="2" name="Intricate" protection="30000" price="25000" percent="70" removecost="15000" duration="72000" />
-	<base id="3" name="Powerful" protection="50000" price="100000" percent="50" removecost="15000" duration="72000" />
+	<base id="1" name="Basic" protection="10000" price="5000" percent="90" removecost="15000" duration="144000" />
+	<base id="2" name="Intricate" protection="30000" price="25000" percent="70" removecost="15000" duration="144000" />
+	<base id="3" name="Powerful" protection="50000" price="100000" percent="50" removecost="15000" duration="144000" />
 
 	<!-- Category Names -->
 	<category id="0" name="Elemental Damage" />
@@ -131,7 +131,7 @@
 	</imbuement>
 	<imbuement name="Vampirism" base="3" category="1" iconid="46">
 		<attribute key="description" value="Converts 25% of damage to HP with a chance of 100%." />
-		<attribute key="effect" type="skill" value="lifeleech" bonus="25" chance="100" />
+		<attribute key="effect" type="skill" value="lifeleech" bonus="30" chance="100" />
 		<attribute key="item" value="10602" count="25" />
 		<attribute key="item" value="10550" count="15" />
 		<attribute key="item" value="10580" count="5" />
@@ -150,7 +150,7 @@
 	</imbuement>
 	<imbuement name="Void" base="3" category="2" iconid="49">
 		<attribute key="description" value="Converts 8% of damage to MP with a chance of 100%." />
-		<attribute key="effect" type="skill" value="manaleech" bonus="8" chance="100" />
+		<attribute key="effect" type="skill" value="manaleech" bonus="15" chance="100" />
 		<attribute key="item" value="12448" count="25" />
 		<attribute key="item" value="22534" count="25" />
 		<attribute key="item" value="25386" count="5" />

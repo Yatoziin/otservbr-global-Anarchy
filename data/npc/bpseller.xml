@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Bear Grylls" script="bpseller.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="1068" head="79" body="94" legs="79" feet="120" addons="1" corpse="24643" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+		
+			Anniversary Backpack,16007,5000;
+			Backpack of Holding,2365,50000;
+			Beach Backpack,5949,5000;
+			Birthday Backpack,27063,5000;
+			Blue Backpack,2002,5000;
+			Book Backpack,33318,20000;
+			Brocade Backpack,9774,5000;
+			buggy backpack ,15646,15000;
+			Cake Backpack,22696,5000;
+			Camouflage Backpack,3940,5000;
+			Crown Backpack,10522,5000;
+			Crystal Backpack,18394,8000;
+			Deepling Backpack,15645,5000;
+			Demon Backpack,10518,5000;
+			Dragon Backpack,11243,5000;
+			Energetic Backpack,26181,20000;
+			Expedition Backpack,11241,5000;
+			Feedbag,23663,8000;
+			Fur Backpack,7342,5000;
+			Glooth Backpack,23666,5000;
+			Golden Backpack,2004,5000;
+			Green Backpack,1998,5000;
+			Grey Backpack,2003,5000;
+			Heart Backpack,11119,5000;
+			Jewelled Backpack,5801,9000;
+			Minotaur Backpack,11244,5000;
+			Moon Backpack,10521,5000;
+			Mushroom Backpack,18393,5000;
+			Old and Used Backpack,3960,600000;
+			Orange Backpack,10519,5000;
+			Pannier Backpack,21475,5000;
+			Pillow Backpack,27061,50000;
+			Pirate Backpack,5926,5000;
+			Purple Backpack,2001,5000;
+			Red Backpack,2000,5000;
+			Santa Backpack,11263,5000;
+			Wolf Backpack,24740,10000;
+			Zaoan Chess Box,20620,100000;
+			Ghost Backpack,37455,100000;
+            Yellow Backpack,1999,5000;" />
+	</parameters>
+</npc>

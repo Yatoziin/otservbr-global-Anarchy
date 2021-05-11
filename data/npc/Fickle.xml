@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Fickle" script="fickle.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="862" head="84" body="80" legs="79" feet="80" addons="1" corpse="9780" />
+</npc>

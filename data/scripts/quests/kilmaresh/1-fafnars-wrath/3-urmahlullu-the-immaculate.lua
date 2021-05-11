@@ -2,7 +2,7 @@
 
 local config = {
 	requiredLevel = 100,
-	daily = true,
+	daily = false,
 	roomCenterPosition = Position(33919, 31648, 8),
 	playerPositions = {
 		Position(33918, 31626, 8),

@@ -7,7 +7,9 @@
 		<parameter key="shop_buyable" value="
 			animate dead rune, 2316, 375;
 			avalanche rune, 2274, 57;
+			berserk potion, 7439, 1000;
 			blank rune, 2260, 10;
+			bullseye potion, 7443, 1000;
 			chameleon rune, 2291, 210;
 			convince creature rune, 2290, 80;
 			cure poison rune, 2266, 65;
@@ -31,8 +33,10 @@
 			icicle rune, 2271, 30;
 			intense healing rune, 2265, 95;
 			light magic missile rune, 2287, 4;
+			magic shield potion, 40398, 500;
 			magic wall rune, 2293, 116;
 			mana potion, 7620, 56;
+			mastermind potion, 7440, 1000;
 			paralyze rune, 2278, 700;
 			poison bomb rune, 2286, 85;
 			poison field rune, 2285, 21;          

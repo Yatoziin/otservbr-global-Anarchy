@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Moist" script="Moist.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="12" head="19" body="104" legs="96" feet="96" corpse="8721" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="
+		Mammoth fur shorts, 7464, 15;
+		wooden hammer, 2556, 15" />
+		<parameter key="shop_buyable" value="
+			little bowl of myrrh, 29007, 500;
+			fiery heart, 10553, 375;
+			fairy wings, 28999, 200;
+			cultish robes, 10556, 375;
+			Rorc Feather, 21310, 75;
+			Peacock Feather Fan, 24631, 375;
+			Energy Vein, 26164, 375;
+			Piles of Grave Earth, 12440, 75;
+			Demonic Skeletal Hand, 10564, 175;
+			Petrified Scream, 11337, 375;
+			Flask of Embalming Fluid, 12422, 75;
+			Gloom Wolf Fur, 24663, 75;
+			Mystical Hourglass, 10577, 775;
+			Piece of Swampling Wood, 20103, 75;
+			Snake Skin, 10611, 475;
+			Brimstone Fangs, 12658, 395;
+			Green Dragon Leather, 5877, 275;
+			Blazing Bone, 18425, 675;
+			Draken Sulphur, 12614, 675;
+			Winter Wolf Fur, 11212, 75;
+			Thick Fur, 11224, 275;
+			Deepling Warts, 15425, 275;
+			Wyvern Talisman, 10561, 375;
+			Crawler Head Plating, 15482, 375;
+			Wyrm Scale, 10582, 475;
+			Cultish Mask, 10555, 375;
+			Hellspawn Tail, 11221, 575;
+			Piece of Scarab Shell, 10558, 75;
+			Wereboar Hooves, 24709, 375;
+			Crystallized Anger, 26163, 575;
+			Quill, 33314, 1175;
+			Mooh'tah Shells, 23573, 110;
+			War Crystals, 10571, 460;
+			Elven Scouting Glasses, 12420, 50;
+			Elven Hoofs, 21311, 115;
+			Metal Spikes, 11215, 320;
+			Elvish Talismans, 10552, 45;
+			Broken Shamanic Staffs, 12408, 35;
+			Strands of Medusa Hair, 11226, 600;
+			Pieces of Scarab Shell, 10558, 45;
+			Brimstone Shells, 12659, 210;
+			Frazzle Skins, 22533, 400;
+			Cyclops Toes, 10574, 55;
+			Ogre Nose Rings, 24845, 210;
+			Warmaster's Wristguards, 11322, 200;
+			Damselfly Wings, 19738, 20;
+			Compasses, 11219, 45;
+			Waspoid Wings, 15484, 190;
+			Orc Teeth, 11113, 150;
+			Battle Stones, 12403, 290;
+			Moohtant Horns, 23571, 140;
+			Lion's Manes, 10608, 60;
+			green dragon scale, 5920, 200;
+			Demon Horn, 5954, 1000;
+			Swamp Grass, 10603, 20;
+			Poisonous Slime, 10557, 50;
+			Slime Heart, 23565, 160;
+			Frosty Heart, 10578, 280;
+			Seacrest Hair, 24170, 260;
+			Polar Bear Paw, 10567, 50;
+			Vampire Teeth, 10602, 275;
+			Bloody Pincers, 10550, 1000;
+			Piece of Dead Brain, 10580, 420;
+			Rope Belt, 12448, 66;
+			Silencer Claw, 22534, 390;
+			Some Grimeleech Wings, 25386, 1200;
+			Protective Charm, 12400, 500;
+			Sabretooth, 11228, 400;
+			Vexclaw Talons, 25384, 1100;
+			Fairy Wings, 28998, 200;
+			Goosebump Leather, 22539, 650" />
+	</parameters>
+</npc>

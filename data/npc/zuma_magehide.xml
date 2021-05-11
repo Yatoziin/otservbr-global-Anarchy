@@ -23,6 +23,23 @@
 			stone skin amulet, 2197, 5000, 5;
 			strange talisman, 2161, 100, 200;
 			sword ring, 2207, 500;
+			prismatic ring, 18408, 15000;
+			prismatic necklace, 18407, 15000;
+			gold token, 25377, 20000;
+			shining sun catcher, 29213, 500000;
+			gleaming starlight vial, 29212, 500000;
+			bone fiddle, 33276, 500000;
+			whacking driller of fate, 10515, 100000;
+			squeezing gear of girlpower, 10513, 100000;
+			sneaky stabber of eliteness, 10511, 100000;
+			blood herb, 2798, 500;
+			collar of red plasma, 26200, 15000;
+			collar of blue plasma, 26198, 15000;
+			collar of green plasma, 26199, 15000;
+			ring of green plasma, 26187, 15000;
+			ring of red plasma, 26189, 15000;
+			ring of blue plasma, 26185, 15000;
+			silver token, 25172, 8000;
 			time ring, 2169, 5000;"/>
 	</parameters>
 </npc>

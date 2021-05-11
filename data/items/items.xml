@@ -17530,8 +17530,8 @@
 		<attribute key="weight" value="2400" />
 		<attribute key="description" value="Tibia's most amazing news can be read in it. It was awarded for winning a TibiaNews contest." />
 	</item>
-	<item id="8982" article="a" name="norseman doll">
-		<attribute key="description" value="It is given to the winners of Tibia Nordic competitions." />
+	<item id="8982" article="a" name="Tier 1 Addon Doll">
+		<attribute key="description" value="!addon1 name (citizen, hunter, knight, summoner, warrior, barbarian, druid, oriental, pirate, assassin, beggar, shaman, norseman, jester, yalaharian, warmaster, wayfarer, afflicted, elementalist, deepling, crystal warlord, soil guardian, cave explorer)" />
 		<attribute key="weight" value="1000" />
 	</item>
 	<item id="8983" article="a" name="heavily bound book">
@@ -20753,7 +20753,8 @@
 		<attribute key="corpseType" value="blood" />
 	</item>
 	<item fromid="11142" toid="11143" article="a" name="shrine" />
-	<item id="11144" article="a" name="nightmare doll">
+	<item id="11144" article="a" name="Tier 2 Addon Doll">
+	<attribute key="description" value="!addon2 name (insectoid, glooth engineer, falconer, demon, dream warden, poltergeist, percht raider, revenant, rift warrior, hand of the inquisition)" />
 		<attribute key="weight" value="1800" />
 	</item>
 	<item fromid="11145" toid="11160" article="a" name="sand" />
@@ -36352,7 +36353,7 @@
 	</item>
 	<item id="25377" article="a" name="gold token" plural="gold tokens">
 		<attribute key="loottype" value="valuable" />
-		<attribute key="weight" value="200" />
+		<attribute key="weight" value="20" />
 	</item>
 	<item id="25378" article="a" name="copper token" plural="copper tokens">
 		<attribute key="weight" value="200" />
